@@ -1,0 +1,34 @@
+$ git log --oneline --graph --all
+* da24c76 Documenta el flujo colaborativo y las comprobaciones
+* b673540 Añade sombra al botón principal y cierra la issue #3
+*   d11c3ef Resuelve el conflicto de cover.css
+|\  
+| * 9298e27 Cambia el color del botón principal a verde oscuro
+| * b9ad1c5 Afina el eslogan de la portada
+* | b653495 Cambia el color del botón principal a morado
+* | 3815b27 Afina el eslogan de la portada
+|/  
+*   93a1bdc Merge pull request #2 from apg-29/custom-text
+|\  
+| | * b81ce22 Afina el eslogan de la portada
+| |/  
+| * f2aec92 Ajusta el texto del pie de página
+| * b1ebd41 Personaliza la portada para la startup
+|/  
+* 324d837 Añade documentación con MkDocs e integración continua
+* 3d63659 Añade la página de la startup y su hoja de estilos
+* 42e37f1 Initial commit
+
+$ git remote -v
+espejo	git@github.com:apg-29/git-work-espejo.git (fetch)
+espejo	git@github.com:apg-29/git-work-espejo.git (push)
+origin	git@github.com:apg-29/git-work.git (fetch)
+origin	git@github.com:apg-29/git-work.git (push)
+
+$ git tag
+0.1.0
+
+$ git log --format="%an <%ae>" | sort -u
+Angel Perez Garcia <angelperzgrcia@gmail.com>
+apg-29 <angelperzgrcia@gmail.com>
+Usuario espejo <correo@espejo.com>
