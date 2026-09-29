@@ -12,7 +12,7 @@ conflicto, etiqueta y release) del módulo DPL.
 - [Problemas encontrados y solución](#problemas-encontrados-y-solucion)
 - [Repositorio remoto](#repositorio-remoto)
 
-## Entorno e instalación
+## Entorno e instalacion
 
 La práctica se ha realizado con Git y GitHub, utilizando GitHub CLI (`gh`) para gestionar issues, pull requests y releases desde la terminal.
 
